@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    max-width: 1400px;
+    max-width: 1440px;
     width: 100%;
     margin: 0 auto;
     padding: 20px;
@@ -12,7 +12,7 @@
 }
 
 .logoImg{
-      max-width: 400px;       
+      max-width: 300px;       
       width: 100%;
       
 }
@@ -21,6 +21,7 @@
     
     width:100% ;
     color: white;
+    text-align: end;
 }
 
 .footerLink {

@@ -1,3 +1,5 @@
+"use client"
+
 // import { useEffect, useState } from "react"
 // import ErrorMessage from "../../components/ErrorMessage/ErrorMessage.jsx"
 // import Loader from "../../components/Loader/Loader.jsx"
@@ -8,38 +10,14 @@
 // import css from "./PuttyPage.module.css"
 
 const CatalogPage = () => {
-//   const [puttys, setPuttys] = useState(null)
-//   const [isLoading, setIsLoading] = useState(false);
-//   const [isError, setIsError] = useState(false);
-  
-//   useEffect(() => {
-   
-//     async function fetchDataPutty() {
-//       try {
-//         setIsLoading(true)
-//         setIsError(false)
+    
 
-//         const data = await fetchPutty();
-       
-        
-    
-//       setPuttys(data);
-        
-//       } catch (err) {
-//         setIsError(true)
-    
-//       } finally {
-//         setIsLoading(false);
-        
-//    }
-//     }
-//    fetchDataPutty ();
-    
-//   }, [])
   
 
   return (
     <div >
+      <h2>Каталог товарів</h2>
+
       {/* <SideBar>
         <PuttyFilters/>
       </SideBar>
@@ -47,7 +25,12 @@ const CatalogPage = () => {
       {isError && <ErrorMessage/>}
       <PuttyList puttys={ puttys} />
       console.log(puttys); */}
-      <h2>Каталог товарів</h2>
+        <a href="/catalog/ceiling">Стелі</a>
+
+        <a href="/catalog/putty">Шпаклівки</a>
+        
+
+      
       
     </div>
   );
